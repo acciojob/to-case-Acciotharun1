@@ -5,7 +5,7 @@ function toCase(text) {
   }
 
   // Convert the string to lowercase and uppercase, join with '-'
-  return text.toLowerCase() + '-' + str.toUpperCase();
+  return text.toLowerCase() + '-' + text.toUpperCase();
 
 }
 
